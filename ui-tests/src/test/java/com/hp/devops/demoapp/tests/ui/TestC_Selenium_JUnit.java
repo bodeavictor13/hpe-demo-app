@@ -37,7 +37,7 @@ public class TestC_Selenium_JUnit {
 
     @Test
     public void testUIcaseE() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+        System.out.println(" Very Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if (testData.isMusicApp()) {
             query = testData.getDriver().findElement(By.id("bandsList"));
