@@ -56,7 +56,7 @@ public class TestB_Selenium_JUnit {
     @Category(SpecialTests.class)
     @Test
     public void testUIcaseD() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+        System.out.println("Very Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if(testData.isMusicApp()){
             query = testData.getDriver().findElement(By.id("totalVotes"));
