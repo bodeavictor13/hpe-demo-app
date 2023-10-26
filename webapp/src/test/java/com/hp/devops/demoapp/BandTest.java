@@ -34,6 +34,11 @@ public class BandTest {
 		try {
 			Band band = new Band(null);
 			Assert.fail("the flow MUST have been fallen before");
+			Assert.assertEquals(band.id, 1);
+			Assert.assertEquals(band.name, "");
+			Assert.assertEquals(band.logo, "");
+			Assert.assertEquals(band.song, "Song");
+			Assert.assertEquals(band.votes, 10);
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), NullPointerException.class);
 		}
