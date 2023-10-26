@@ -44,6 +44,13 @@ public class BandTest {
 		try {
 			Band band = new Band(new JSONObject());
 			Assert.fail("the flow MUST have been fallen before");
+			Assert.assertEquals(e.getClass(), InvalidParameterException.class);
+			Assert.assertEquals(e.getMessage(), "json must have an id property");
+			Assert.assertEquals(band.id, 1);
+			Assert.assertEquals(band.name, "");
+			Assert.assertEquals(band.logo, "");
+			Assert.assertEquals(band.song, "Song");
+			Assert.assertEquals(band.votes, 10);
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), InvalidParameterException.class);
 			Assert.assertEquals(e.getMessage(), "json must have an id property");
