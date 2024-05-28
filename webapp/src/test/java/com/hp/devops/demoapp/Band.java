@@ -15,7 +15,7 @@ import java.security.InvalidParameterException;
  * Time: 14:21
  * To change this template use File | Settings | File Templates.
  */
-public class BandTest {
+public class Band {
 	//private String NON_RELATED;
 	private JSONObject test;
 
