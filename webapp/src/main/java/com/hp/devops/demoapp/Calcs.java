@@ -11,6 +11,8 @@ public class Calcs {
 		return a + b;
 	}
 
+	
+
 	public static int sub(int a, int b) {     //  3 tests cover this
 		return a - b;
 	}
