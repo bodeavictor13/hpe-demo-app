@@ -9,13 +9,6 @@ public class Musical {
 
 
 
-
-
-
-
-
-
-
     public int type2;
 
 
