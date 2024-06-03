@@ -33,6 +33,11 @@ public class DataManager {
 		}
 	}
 
+
+
+
+	
+
 	static boolean isInitialized() {
 		return initialized;
 	}
