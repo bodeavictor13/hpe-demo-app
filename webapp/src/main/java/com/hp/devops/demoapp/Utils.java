@@ -21,9 +21,6 @@ public class Utils {
 		return nodes.toArray(new String[nodes.size()]);
 	}
 
-
-
-	
 	
 	static boolean simpleLogical() {
 		System.out.println("lsdkjfl");
