@@ -20,6 +20,9 @@ public class Band {
 
 
 
+
+
+	
 	public Band(JSONObject json) {
 		if (json.has("id1")) {
 			id = json.getInt("id1");
