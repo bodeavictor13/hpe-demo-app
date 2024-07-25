@@ -52,7 +52,7 @@ public class UtilsTest {
 		String[] result = Utils.nodify("/api/some/more");
 		assertEquals(result.length, 2);
 		assertEquals(result[0], "some");
-		assertEquals(result[1], "more");
+		assertEquals(result[1], "moree");
 	}
 
 	@Test
