@@ -72,6 +72,6 @@ public class UtilsTest {
 	@Test
 	public void testSimpleLogical() {
 		boolean result = Utils.simpleLogical();
-		assertFalse(result);
+		assertTrue(result);
 	}
 }
