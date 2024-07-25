@@ -60,7 +60,7 @@ public class CalcsTest {
 
 	@Test
 	public void neq_test_C_BrokenTest() {
-		assertTrue(Calcs.nonEqual(5, 5));
+		assertTrue(Calcs.nonEqual(5, -5));
 	}
 
 	@Test
