@@ -41,6 +41,7 @@ public class CalcsTest {
 	public void eq_test_A() {
 		assertTrue(Calcs.equal(1, 1));
 	}
+	
 
 	@Test
 	public void eq_test_B() {
