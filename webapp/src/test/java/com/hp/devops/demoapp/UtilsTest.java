@@ -37,7 +37,7 @@ public class UtilsTest {
 	public void nodifyTestD() {
 		String[] result = Utils.nodify("/some");
 		assertEquals(result.length, 1);
-		assertEquals(result[0], "some");
+		assertEquals(result[0], "somee");
 		assertEquals(true, true);
 	}
 
