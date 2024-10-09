@@ -18,6 +18,7 @@ public class UtilsTest {
 	public void nodifyTestA() {
 		String[] result = Utils.nodify(null);
 		assertEquals(result.length, 9);         //  0 is the right answer
+		
 	}
 	
 
