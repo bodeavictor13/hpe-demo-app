@@ -73,5 +73,6 @@ public class UtilsTest {
 	public void testSimpleLogical() {
 		boolean result = Utils.simpleLogical();
 		assertTrue(!result);
+		
 	}
 }
