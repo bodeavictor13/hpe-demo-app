@@ -18,6 +18,7 @@ import static org.junit.Assert.assertTrue;
 public class CalcsTest {
 //yet another comment...
 	@Test
+	@TestDoc(id = "MT #9905", description = "ghhghgh")
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1,5));
 	}
